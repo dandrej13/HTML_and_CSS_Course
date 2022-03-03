@@ -44,3 +44,38 @@ li.hd {
     text-decoration: none;
     font-weight: bold;
 }
+
+
+#image-text {
+    position: absolute;
+    top: 230px; ;
+    left: 400px;
+    font-size: 50px;
+    color: #000;
+    text-align: center;
+   }
+
+#small-image-text {
+    position: absolute;
+    top: 400px;
+    left: 190px;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
+
+#showcase {
+    width: 100%;
+    margin: none;
+    padding: none;
+
+}
+
+img {
+    opacity: 0.65;
+  }
+  
+
+
+
