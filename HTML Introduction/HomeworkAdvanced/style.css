@@ -25,6 +25,7 @@ li {
 
 li a {
     display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -42,7 +43,9 @@ li.hd {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    font-size: large;
 }
 
 
@@ -69,6 +72,7 @@ li.hd {
     width: 100%;
     margin: none;
     padding: none;
+    
 
 }
 
@@ -77,5 +81,25 @@ img {
   }
   
 
+  form {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(189, 189, 189);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+  }
 
+.epage {
+    background-color: #000;
+}
 
+input[type=submit] {
+    background-color: orangered;
+    color: rgb(0, 0, 0);
+}
+
+input[placeholder="Enter e-mail"] {
+    color: orangered
+}
