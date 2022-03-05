@@ -4,6 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(189, 189, 189);
+    
    
 }
 
@@ -19,9 +20,6 @@ hr {
 
     }
 
-li {
-    float: right;
-}
 
 li a {
     display: block;
@@ -30,6 +28,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: right;
+    
+    
 }
 
 li a:hover {
@@ -51,7 +52,7 @@ li.hd {
 
 #image-text {
     position: absolute;
-    top: 230px; ;
+    top: 130px; ;
     left: 400px;
     font-size: 50px;
     color: #000;
@@ -60,7 +61,7 @@ li.hd {
 
 #small-image-text {
     position: absolute;
-    top: 400px;
+    top: 300px;
     left: 190px;
     font-size: 25px;
     text-align: center;
@@ -72,12 +73,17 @@ li.hd {
     width: 100%;
     margin: none;
     padding: none;
+    background-size:cover
+    
     
 
 }
 
 img {
     opacity: 0.65;
+    padding: 0% 
+    
+    
   }
   
 
@@ -89,6 +95,7 @@ img {
     margin-top: 0px;
     margin-bottom: 0px;
     
+    
   }
 
 .epage {
@@ -97,9 +104,75 @@ img {
 
 input[type=submit] {
     background-color: orangered;
+    outline-color: orangered;
     color: rgb(0, 0, 0);
 }
 
 input[placeholder="Enter e-mail"] {
     color: orangered
 }
+
+#newsletter {
+    
+    position:relative;
+    bottom: 480px;
+
+}
+
+
+div {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+    display:block;
+    
+}
+
+.li1 {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+    padding: 14px 220px;
+    text-decoration: none;
+    float: right;
+   
+}
+
+.boxed {
+        height: 0px;
+        width:1222px;
+        border: 140px solid rgb(20, 20, 20);
+        padding: 0.2px;
+        margin: 0px;
+        position: absolute;
+        bottom: -232px;
+        right: 8.5px;
+        ;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.container {
+    position: relative;
+    margin-inline-start: 100px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+}
+
