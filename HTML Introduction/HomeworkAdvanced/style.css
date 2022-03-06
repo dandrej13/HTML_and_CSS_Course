@@ -1,4 +1,4 @@
-ul {
+.ul12 {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -81,8 +81,7 @@ li.hd {
 
 img {
     opacity: 0.65;
-    padding: 0% 
-    
+    padding: 0%;
     
   }
   
@@ -143,7 +142,7 @@ div {
 .boxed {
         height: 0px;
         width:1222px;
-        border: 140px solid rgb(20, 20, 20);
+        border: 140px solid rgba(20, 20, 20, 0.962);
         padding: 0.2px;
         margin: 0px;
         position: absolute;
@@ -152,27 +151,32 @@ div {
         ;
       }
 
+.ul13 {
+   list-style-type: none;
+   overflow: hidden;
+   margin: 0.2cm;
+   padding: 0cm;
+   position: absolute;
+   bottom: -220px;
+  ;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.container {
-    position: relative;
-    margin-inline-start: 100px;
-    padding-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 25%;
+    
 }
 
+.li2 {
+    display: block;
+    text-align: center;
+    padding: 14px 147px;
+    text-decoration: none;
+    float: right;
+}
+
+
+.head2{
+    background-color: orangered;
+    position: relative;
+    text-align: center;
+    padding: 33px;
+    bottom: 218px;
+    font-family:'Courier New', Courier, monospace;
+}
