@@ -1,0 +1,35 @@
+body {
+    background-color: black
+    color  white;
+}
+
+header {
+    background-color: beige;
+    columns: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+nav{
+    background-color: aqua;
+    color: red;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+main{
+    background-color: bisque;
+    color: blue;
+    padding: 15px;
+}
+
+main div {
+    border: 2px dashed blue;
+    padding: 15px;
+}
+
+main div:first-child{
+    margin-bottom: 15px;
+}
