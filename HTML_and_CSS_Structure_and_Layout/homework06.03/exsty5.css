@@ -1,0 +1,57 @@
+header {
+    padding: 15px;
+    background-color: coral;
+    color: black;
+    box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+footer {
+    padding: 15px;
+    background-color: rgb(142, 184, 44);
+    color: black;
+}
+
+
+
+main {
+    background-color: #8eabc0;
+    float: left;
+    width: 100%;   
+    padding: 15px;
+    color: white;
+    box-sizing: border-box;
+}
+
+aside {
+    background-color: #f6bd62;
+    float: left;
+    width: 20.9%;
+    height: 400px; 
+    padding: 15px;
+}
+footer {
+    clear: both;
+}
+
+#logo {
+    background-color: #eb6481;
+    float: left;
+    padding: 15px;
+}
+
+nav {
+    background-color: #d76a50;
+    padding: 15px;
+    float: right;
+}
+
+#subcontent1 {
+    background-color: #508088;
+    float: right;
+    width: 65%;
+    height: 150px;
+    padding: 15px;
+}
+
