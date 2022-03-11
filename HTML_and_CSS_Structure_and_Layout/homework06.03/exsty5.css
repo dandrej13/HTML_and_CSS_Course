@@ -47,11 +47,30 @@ nav {
     float: right;
 }
 
-#subcontent1 {
-    background-color: #508088;
+#sidebar {
+    background-color: #f6bd62;
+    float: left;
+    width: 20%;
+    height: 400px;
+    padding: 15px;
+    margin-right: 100px;
+}
+
+.sc1 {
+    background-color: #507088;
     float: right;
     width: 65%;
     height: 150px;
     padding: 15px;
+    margin-right: 0px;
+}
+
+.sc2 {
+    background-color: #384e5e;
+    float: right;
+    width: 65%;
+    height: 150px;
+    padding: 15px;
+    margin-top: 20px;
 }
 
