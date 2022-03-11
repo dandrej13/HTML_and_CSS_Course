@@ -1,0 +1,47 @@
+header {
+    background-color: indianred;
+    width: 100%;
+    float: left;
+}
+
+div {
+    background-color: cornflowerblue;
+    padding: 15px;
+    color: aliceblue;
+    float: left;
+    margin: 15px;
+}
+
+nav {
+    background-color: darkseagreen;
+    padding: 15px;
+    color: aliceblue;
+    float: right;
+    margin: 15px;
+}
+
+main {
+    background-color: rgb(20, 197, 94);
+    padding: 15px;
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.subContent {
+    background-color: rgb(104, 5, 5);
+    padding: 15px;
+    margin: 25px;
+    overflow: hidden;
+}
+
+img{
+    float: left;
+}
+
+p {
+   background-color: springgreen;
+   float: right;
+   padding: 15px;
+   width: 85%;
+}
