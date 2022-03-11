@@ -1,0 +1,44 @@
+header {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+aside {
+    background-color: blueviolet;
+    color: white;
+    float: left;
+    padding: 15px;
+    width: 23%;
+    height: 300px;    
+    box-sizing: border-box;
+}
+
+main {
+    background-color: blue;
+    color: wheat;
+    float: left;
+    padding: 15px;
+    width: 44%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: yellow;
+    color: darkorchid;
+    padding: 15px;
+    float: left;
+    width: 33%;
+    height: 300px;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: brown;
+    padding: 15px;
+    clear: both;
+
+}
