@@ -1,0 +1,32 @@
+HEADER {
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    
+}
+
+MAIN {
+    padding: 15px;
+    float: right;
+    width: 70%;
+    background-color: greenyellow;
+    color: white;
+    box-sizing: border-box;
+    height: 600px;
+}
+
+ASIDE {
+    padding: 15px;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    height: 600px;
+}
+
+FOOTER {
+    padding: 15px;
+    clear: both;
+    background-color: violet;
+}
