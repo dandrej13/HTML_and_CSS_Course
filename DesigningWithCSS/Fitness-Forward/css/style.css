@@ -1,5 +1,24 @@
+/* 
+Author: Andrej Dimitrievski
+Date: 31.03.2022    
+file: style.css 
+*/
+
+/* CSS Reset  */
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 body {
-    background-color: #ccc
+    background-color:#000
 }
 
 header {
@@ -16,6 +35,9 @@ nav {
 
 main {
     clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.25em;
 }
 
 h1 {
@@ -36,7 +58,11 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    font-size: 1.75em;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: Verdana,
+    Arial,
+    sans-serif;
 }
 
 nav ul li a {
@@ -50,4 +76,83 @@ nav ul li a {
 img {
     max-width: 100%;
     display: block;
+}
+#hero {
+    position: relative;
+    clear: both;
+}
+
+#hero h2 {
+    position: absolute;
+    margin-left: 30px;
+    color: #fff;
+}
+
+.arrow-bullet {
+    list-style-image: url("..//images/arrow.png");
+}
+
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0 1em;
+}
+
+footer p a,
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#weights,
+#cardio,
+#training {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#exercise {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercise dt {
+    font-weight: bold;
+}
+
+#exercise dd {
+    padding: 0, 5% 1% 2%;
+}
+
+#Contact {
+    text-align: center;
+}
+
+#Contact a {
+    color: #aea637;
+    ;
+    text-decoration: none;
+
+}
+
+
+.action {
+    font: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
+.external-link {
+    color: #aea637;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map {
+    border: solid 8px #000;
 }
