@@ -45,10 +45,33 @@ nav {
 }
 
 main {
-    clear: left;
     background-color: #fff;
     padding: 2%;
-    font-size: 1.25em;
+    font-size: 1.15em;
+    font-family: 'Francois One',
+    sans-serif;
+    border: 1px solid #000;
+    border-radius: 5px;
+    }
+    
+    .tel-link {
+        background-color: #404040;
+        padding: 2%;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+        border-radius: 5px;
+    }
+    
+    .tel-link a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5em;
+        display: block;
+    }
+    
+    .hours {
+        margin-left: 10%;
 }
 
 h1 {
@@ -77,11 +100,18 @@ nav ul li {
 nav ul li a {
     display: block;
     color: #fff;
-    text-align: center;
     padding: 0.5em 1em;
     text-decoration: none;
 }
 
+/* Show mobile class, hide tablet-desktop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none
+}
 img {
     max-width: 100%;
     display: block;
@@ -123,7 +153,7 @@ footer a {
     margin: 0 2%;
 }
 
-#exercise {
+/* #exercise {
     clear: left;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
@@ -139,11 +169,12 @@ footer a {
     padding: 0, 5% 1% 2%;
 }
 
+*/
 #Contact {
     text-align: center;
 }
 
-#Contact a {
+#Contact .contact-email-link {
     color: #aea637;
     ;
     text-decoration: none;
@@ -163,5 +194,22 @@ footer a {
 }
 
 .map {
-    border: solid 8px #000;
+    border: solid 2px #000;
+    width: 95%;
+    height: 50%;
+    }
+    
+    nav ul li:first-child {
+        border-top: none;
+    }
+    
+    #cardio,
+    #weights,
+    #training {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .round {
+        border-radius: 8px;
 }
