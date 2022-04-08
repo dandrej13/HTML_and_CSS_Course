@@ -1,22 +1,25 @@
 /* 
-Author: Andrej Dimitrievski
-Date: 31.03.2022    
-file: style.css 
+Author: Boban Srezovski
+Data: 31.03.2022
+File Name: styles.css
 */
 
-/* CSS Reset  */
+/* CSS Reset */
 body,
 header,
+footer,
 nav,
 main,
 footer,
 h1,
-div,
-section,
-img,
 ul,
+div,
+img,
 figure,
-figcaption {
+figcaption,
+section,
+article,
+aside {
     margin: 0;
     padding: 0;
     border: 0;
@@ -29,43 +32,82 @@ figcaption {
 
 /* Style rules for body and images */
 body {
-    background-color: #000
+    background-color: #000;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for mobile viewport */
+
+/* Style rule for header */
 header {
-
-    background-color: #000;
     top: 0;
+    background-color: #000;
     height: 190px;
-
-
 }
 
 header img {
-
     margin: 0 auto;
 }
 
+/* Style rule for navigation area */
 nav {
-    margin: 1%;
-    padding-bottom: 1%;
-
+    padding: 1%;
+    margin-bottom: 1%;
 }
 
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    font-size: 1.5em;
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Francois one', serif;
+    border-top: 1px solid #fff;
+}
+
+nav ul li:first-child {
+    border-top: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+/* Show mobile class, hide tablet-desctop class */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Styles rules for main content */
 main {
     background-color: #fff;
     padding: 2%;
     font-size: 1.15em;
-    font-family: 'Francois One',
-        sans-serif;
-    border: 1px solid #000;
-    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
 }
 
-.mobile,
-h3 {
+.mobile h3 {
     text-shadow: 5px 5px 8px #ccc;
 }
+
 article {
     padding: 2%;
 }
@@ -97,6 +139,7 @@ aside {
     text-shadow: 5px 5px 5px #b3b3b3;
     border-radius: 0 15px;
 }
+
 .tel-link {
     background-color: #404040;
     padding: 2%;
@@ -104,13 +147,15 @@ aside {
     width: 80%;
     text-align: center;
     border-radius: 5px;
-    }
+}
+
 .tel-link a {
     color: #fff;
     text-decoration: none;
     font-size: 1.5em;
     display: block;
-    }
+}
+
 .hours {
     margin-left: 10%;
 }
@@ -122,126 +167,64 @@ h1 {
 #container {
     width: 80%;
     margin: 0 auto;
-    border: solid black;
 }
 
-nav ul {
-    list-style-type: none;
-    text-align: center
-}
 
-nav ul li {
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: 'Francois One', sans-serif;
-    border-top: 1px solid rgb(178, 151, 114);
-    display: block;
-}
-
-nav ul li a {
-    display: block;
-    color: #fff;
-    padding: 0.5em 1em;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #000;
-    background-color: #fff;
-}
-
-.grid-item4 {
-    grid-column: 1/4;
-    background-color: #ccc;
-}
-
-/* Show mobile class, hide tablet-desktop class */
-.mobile {
-    display: block;
-}
-
-.tablet-desktop {
-    display: none
-}
-
-img {
-    max-width: 100%;
-    display: block;
-}
 
 #hero {
-    position: relative;
     clear: both;
+    position: relative;
 }
 
 #hero h2 {
+    color: #fff;
     position: absolute;
     margin-left: 30px;
-    color: #fff;
 }
 
-.arrow-bullet {
-    list-style-image: url("..//images/arrow.png");
-}
-
-footer {
+/* Styles rules for footer content */
+footer p {
     font-size: 0.75em;
     text-align: center;
     color: #fff;
     padding: 0 1em;
-    clear: both;
 }
 
-footer p a,
-footer a {
+footer p a {
     color: #fff;
     text-decoration: none;
 }
 
-#weights,
+#waights,
 #cardio,
 #training {
-    width: 29%;
-    float: left;
     margin: 0 2%;
-
-}
-
-#Contact {
-    text-align: center;
-}
-
-#Contact .contact-email-link {
-    color: #aea637;
-    ;
-    text-decoration: none;
-
-}
-
-.action {
-    font: 1.35em;
-    color: #666600;
-    font-weight: bold;
-}
-
-.external-link {
-    color: #aea637;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.map {
-    border: solid 2px #000;
-    width: 95%;
-    height: 50%;
-}
-
-nav ul li:first-child {
-    border-top: none;
 }
 
 .round {
     border-radius: 8px;
+}
+
+.map {
+    border: 2px solid #000;
+    width: 95%;
+    height: 50%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact .conatact-email-link {
+    color: #666600;
+    text-decoration: none;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+    text-shadow: 5px 5px 8px #ccc;
 }
 
 .frame {
@@ -253,36 +236,44 @@ nav ul li:first-child {
 .pic-text {
     position: absolute;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     color: #fff;
     width: 100%;
     padding: 20px;
     text-align: center;
-    font-family: verdana, arial, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
 }
 
-/* Tablet viewport: Show tablet desktop class, 
-hide mobile class */
-@media screen and (min-width: 680px) {
-    .tablet-desktop {
-        display: block;
-    }
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
 
+.grid-item4 {
+    grid-column: 1 / span 3;
+}
+
+
+@media screen and (min-width: 680px) {
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
     .mobile {
         display: none;
     }
 
-
-    /*  Tablet viewport: Style rule for header */
-
-    header {
-        padding: 2%;
+    .tablet-desktop {
+        display: block;
     }
 
-    /*  Tablet viewport for nav area*/
+    /* Tablet Viewport:Style rule for header */
+    header {
+        padding-bottom: 2%;
+    }
 
+    /* Tablet Viewport:Style rule for nav area */
     nav ul li {
         border-top: none;
         display: inline-block;
@@ -297,10 +288,9 @@ hide mobile class */
         padding: 0.1em 0.75em;
     }
 
-    /* Tablet viewport for main content area  */
-
+    /* Tablet Viewport: For main content area */
     main ul {
-        margin: 0 0 4% 10%
+        margin: 0 0 4% 10%;
     }
 
     .grid {
@@ -309,21 +299,26 @@ hide mobile class */
         grid-gap: 20px;
     }
 
-    #exercise {
+    .pic-text {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    #exercises {
         clear: left;
         border-top: 1px solid #000;
         border-bottom: 1px solid #000;
+        background: linear-gradient(to right, #ccc, #fff);
         background-color: #f2f2f2;
         padding: 1% 2%;
-        background: linear-gradient(to right, #ccc, #fff);
-        }
+    }
 
-    #exercise dt {
+    #exercises dt {
         font-weight: bold;
-        }
+    }
 
-    #exercise dd {
-        padding: 0 5% 1% 2%;
+    #exercises dd {
+        padding: 0.5% 1% 2% 0;
     }
 
     .tel-num {
@@ -333,45 +328,13 @@ hide mobile class */
     .map {
         width: 600px;
         height: 450px;
-
-    }
-    
-    table {
-        border: 1px solid #000;
-        border-collapse: collapse;
-        margin: 0 auto;
-        width: 100%;
-    }
-    
-    caption {
-        font-weight: bold;
-        font-size: 1.5em;
-        padding: 1%;
-    }
-    
-    th,
-    td {
-        border: 1px solid #000;
-        padding: 2%;
-    }
-    
-    th {
-        background-color: #000;
-        color: #fff;
-        font-size: 1.15;
-    }
-    
-    tr:nth-child(odd) {
-        background-color: #ccc;
     }
 }
 
-/* Media Query for Desktop Viewport */
-
-@media screen and (min-width:781px) {
-
+/* Media Query for Desktop */
+@media screen and (min-width: 781px) {
     header {
-        width: 23%;
+        width: 25%;
         float: left;
         padding-bottom: 0;
     }
@@ -379,12 +342,11 @@ hide mobile class */
     nav {
         float: right;
         width: 70%;
-        margin: 6em 1em 0 0;
+        margin: 4em 1em 0 0;
     }
 
     nav ul {
         text-align: right;
-
     }
 
     nav ul li {
@@ -395,8 +357,7 @@ hide mobile class */
         padding: 0.5em 1em;
     }
 
-    /* Desktop Viewport: Style rules for main content */
-
+    /* Desktop Viewport: Style Rules for main content*/
     main {
         clear: both;
     }
@@ -418,31 +379,24 @@ hide mobile class */
         opacity: 1;
         box-shadow: 8px 8px 10px #808080;
     }
-    
-    #weights,
+
+    #waights,
     #cardio,
     #training {
         width: 29%;
         float: left;
         margin: 0 2%;
     }
-    
-    #exercise {
+
+    #exercises {
         clear: both;
     }
-    }
-    
-    /*   Media Query for large Dispalys    */
-    
-    @media screen and (min-width: 1921px) {
-    
-        #container {
-            margin: 0 auto;
-            width: 1920px;
-        }
-table {
-    width: 80%;
-}
 }
 
-/*  */
+/* Media Query for large Desktop */
+@media screen and (min-width: 1921px) {
+    #container {
+        width: 1920px;
+        margin: 0 auto;
+    }
+}
