@@ -88,7 +88,7 @@ article:nth-of-type(2) {
 
 aside {
     text-align: center;
-    font-size: 1.25;
+    font-size: 1.25em;
     font-style: italic;
     font-weight: bold;
     padding: 2%;
@@ -198,13 +198,38 @@ footer a {
     text-decoration: none;
 }
 
-#weights,
-#cardio,
-#training {
-    width: 29%;
-    float: left;
-    margin: 0 2%;
+#form {
+    margin-top: 2%;
+    background-color: #f2f2f2;
+    padding: 2%;
+}
 
+/* Style rules for form elements*/
+fieldset,
+input,
+select,
+textarea {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding: 3%;
+}
+
+#submit {
+    margin: auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em;
+    border-radius: 10px;
 }
 
 #Contact {
@@ -358,7 +383,7 @@ hide mobile class */
     th {
         background-color: #000;
         color: #fff;
-        font-size: 1.15;
+        font-size: 1.15em;
     }
     
     tr:nth-child(odd) {
@@ -429,6 +454,19 @@ hide mobile class */
     
     #exercise {
         clear: both;
+    }
+    form {
+        width: auto;
+    }
+    
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+    
+    .btn {
+        grid-column: 1/span 3;
     }
     }
     

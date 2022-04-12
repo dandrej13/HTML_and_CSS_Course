@@ -57,7 +57,28 @@ First Name Student's Last Name-->
                     <fieldset>
                         <legend>Additional Information</legend>
                         <p>I would like to have more information about:</p>
-            
+
+                        <label for="grpfit">
+                            <input type="checkbox" name="interest" id="grpfit" value="Group Fitness">Group Fitness</label>
+                        <label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Personal Training" />Personal
+                            Training</label>
+                        <label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Nutrition" />Nutrition</label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Referral Source</legend>
+                            <label for="reference">How did you find us?</label>
+                            <select name="reference" id="reference">
+                                <option value="ad">Advertisement</option>
+                                <option value="friend">Friend</option>
+                                <option value="google">Google</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="questions">Questions?</label>
+                            <textarea name="questions" id="question" cols="25" rows="10"></textarea>
+                        </fieldset>
+                        <input type="submit" id="submit" value="Submit" class="btn" />
+                        </form>
                     </fieldset>
                 </form>
 
