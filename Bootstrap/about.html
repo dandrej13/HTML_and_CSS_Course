@@ -1,0 +1,188 @@
+<!doctype html>
+<!-- Andrej Dimitrievski, 21-04-2022 -->
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description"
+        content="The Forward Fitness Club is an elite fitness center dedicated to helping clients achieve their fitness and nutrition goals.">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="image/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touchicon" sizes="180x180" href="images/appletouch-icon.png">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Bootstrap ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" href="fitness-bootstrap/css/styles.css">
+    <title>Complete Fitness - Free Trial | Forward Fitness Club</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+        <a href="index.html" class="navbar-brand">Forward Fitness Club</a>
+        <!-- Hamburger menu icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            ariacontrols=" navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="classes.html" class="nav-link">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="nutrition.html" class="nav-link">Nutrition</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid text-center mt-5">
+        <div class="container-fluid">
+            <h1 class="display-1">About Us</h1>
+            <p class="lead">Our mission is to help our clients meet their fitness and nutrition goals. Our facility
+                includes state-f-the-art equipment, convinient group training classes, and nutrition tips and
+                information to keep you healthy</p>
+        </div>
+    </header>
+
+    <main class="container mb-5">
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="display-3">Weights</h2>
+                <p class="lead">Our facility includes a weight training area with several weight
+                    options. Build lean muscle with weights and improve your core with
+                    weight training.</p>
+                <ul class="arrow-bullet tablet-desktop">
+                    <li>Dumbbels</li>
+                    <li>Kettle bells</li>
+                    <li>Barbells</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <img src="./fitness-bootstrap/images/people-with-weights.jpg"
+                    alt="two people working out with a weight in each hand" class="img-fluid rounded">
+            </div>
+        </div>
+        <hr class="my-5">
+
+        <div class="row">
+            <div class="col-md-7 order-2">
+                <h2 class="display-3">Cardio</h2>
+                <p> Burn fat through cardio workouts.Experts recommend 150 minutes of
+                    cardio each week. We have several equipment choices for your workout</p>
+                <ul class="tablet-desktop">
+                    <li>Treadmills</li>
+                    <li>Eliptical Machines</li>
+                    <li>Exrcise Bikes</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <img src="./fitness-bootstrap/images/people-workingout-machines.jpg" alt="cardio equipment"
+                    class="img-fluid rounded">
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="display-3">Training</h2>
+
+                <p>
+                    Our certified personal trainers work with you to help you obtain
+                    your fitness goals and track your progress. Personal training has
+                    many benefits
+                </p>
+                <ul class="tablet-desktop">
+                    <li>Accountability</li>
+                    <li>Personalized Program</li>
+                    <li>Consistent Support and Motivation</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <img src="./fitness-bootstrap/images/personal-trainer.jpg" alt="Personal Training"
+                    class="img-fluid rounded">
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <section id="exercise" class="tablet-desktop">
+            <h1>Common exercise</h1>
+            <p>The following are common exercises that we encourage to do as a part of their daily exercise
+                routine
+            </p>
+            <dl>
+                <dt>Burpees</dt>
+                <dd>Burpees are great full-body exercise to increase your strenght and endurance. Begin in a
+                    standing position, drop into a squat and exetend your hands forward. <span class="viewex"
+                        onclick="burpees()">View
+                        Example</span></dd>
+
+                <dt>Plank</dt>
+                <dd>Planks build your core strenght. To perform a plank... <span class="viewex" onclick="plank()">View
+                        example</span></dd>
+
+                <dt>Mountain Climber</dt>
+                <dd>Mountain Climbers are giid cardui exercuse. Place your hands on the floor in a push-up
+                    pos... <span class="viewex" onclick="climbers()">View example</span>
+                </dd>
+            </dl>
+            <video controls id="example">
+                <source id="vid-src" src="" type="video/mp4">
+                <track id="despsrc" src="des" kind="descriptions" srclang="en" label="English Descriptions">
+                <p>Your browser does not support the video element.</p>
+            </video>
+            <p>For More information about how to stay active, visit us on:
+                <a href="https://hhs.gov/fitness/be-actvie/index.html" target="blank" class="external-link">
+                    U.S.
+                    Department of
+                    Health
+                    and
+                    Human Services</a>
+            </p>
+        </section>
+    </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+
+    <script src="fitness-bootstrap/scripts/script.js"></script>
+</body>
+
+</html>
